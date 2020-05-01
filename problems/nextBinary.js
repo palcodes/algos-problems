@@ -1,3 +1,9 @@
+// Problem Statement
+
+// 1. Given a non-zero numerical input, consider the binary of that input and find the next number whose binary has the same number of Ones ('1s') in it.
+// 2. You can find this question on binarysearch.io.
+
+
 function decBnry(numberToDecode) {
   let bnr1 = (numberToDecode >>> 0).toString(2);
   // console.log(bnr1);
